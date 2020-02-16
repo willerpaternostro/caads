@@ -1,0 +1,7 @@
+{
+  "appId": "org.cordova.quasar.app",
+  "appName": "CAADS - IFSP",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/pwa"
+}

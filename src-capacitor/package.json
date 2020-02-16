@@ -1,0 +1,11 @@
+{
+  "name": "caads",
+  "version": "0.0.1",
+  "description": "Aplicativo do Centro acadêmico de Análise e Desenvolvimento de Sistemas do IFSP São Carlos",
+  "author": "Willer Paternostro",
+  "private": true,
+  "dependencies": {
+    "@capacitor/cli": "^1.0.0",
+    "@capacitor/core": "^1.0.0"
+  }
+}
