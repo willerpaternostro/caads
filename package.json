@@ -8,7 +8,8 @@
   "author": "Willer Paternostro",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node quasar.conf.js"
   },
   "dependencies": {
     "@capacitor/cli": "^1.5.0",
