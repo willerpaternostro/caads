@@ -8,6 +8,7 @@
   "author": "Willer Paternostro",
   "private": true,
   "scripts": {
+    "build":"quasar build -m pwa",
     "test": "echo \"No test specified\" && exit 0",
     "start": "node quasar.conf.js"
   },

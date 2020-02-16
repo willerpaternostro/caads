@@ -1,1 +1,17 @@
-{"name":"CAADS - IFSP","short_name":"CAADS - IFSP","description":"Aplicativo desenvolvido pelo Centro Acadêmico de ADS do IFSP - São Carlos. ","display":"standalone","start_url":".","icons":[{"src":"/statics/icons/icon-512x512.png","sizes":"512x512","type":"image/png"}],"orientation":"portrait","background_color":"#000000","theme_color":"#027be3"}
+{
+    "name": "CAADS - IFSP",
+    "short_name": "CAADS - IFSP",
+    "description": "Aplicativo desenvolvido pelo Centro Acadêmico de ADS do IFSP - São Carlos. ",
+    "display": "standalone",
+    "start_url": ".",
+    "icons": [
+        {
+            "src": "/statics/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "background_color": "#000000",
+    "theme_color": "#027be3"
+}
