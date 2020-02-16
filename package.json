@@ -10,7 +10,7 @@
   "scripts": {
     "build":"quasar build -m pwa",
     "test": "echo \"No test specified\" && exit 0",
-    "start": "node quasar.conf.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@capacitor/cli": "^1.5.0",
