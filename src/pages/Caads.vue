@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-start ">
-    <div>
-        <div class="text-h4 row text-orange" style="margin-left:50px">Quem somos</div>
+    <div >
+        <div class="text-h4 row text-orange " style="margin-left:50px">Quem somos</div>
       <br/>
         <div class="text-h6 row text-white" style="margin-left:50px; margin-top:20px"> 
         Somos o Centro Acadêmico do curso de ADS, nossa função é promover atividades sociais,<br/>
@@ -12,7 +12,7 @@
      <q-list>
         <q-expansion-item
        style="margin-left:50px"
-      class="text-orange text-h6"
+      class="text-white text-h6"
       label="Cordenadoria de Eventos"
       
     >
@@ -24,7 +24,7 @@
     </q-expansion-item>
        <q-expansion-item
        style="margin-left:50px"
-      class="text-orange text-h6"
+      class="text-white text-h6"
       label="Cordenadoria de Comunicação e Imprensa"
     >
       <q-card class="bg-dark text-white">
@@ -35,7 +35,7 @@
     </q-expansion-item>
       <q-expansion-item
       style="margin-left:50px"
-      class="text-orange text-h6"
+      class="text-white text-h6"
       label="Coordenadoria de Esportes, Cultura e Extensão"
     >
       <q-card class=" bg-dark text-white">
@@ -45,7 +45,7 @@
       </q-card>
     </q-expansion-item>
      </q-list>
-      <div class="text-h4 row text-white" style="margin-left:50px"><br>Membros</div>
+      <div class="text-h4 row text-orange " style="margin-left:50px"><br>Membros</div>
       
     </div>
   <div class="row items-start" :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">
@@ -94,7 +94,7 @@
 
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Coordenadora de Comunicação</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Gabriela</span> Guimarães</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Gabriela Guimarães </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> gabrielagn10@hotmail.com</span></div>
       </q-card-section>
     </q-card>
@@ -103,7 +103,7 @@
       <img src="statics/icons/rebeca.jpg" height="300px">
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6"> Coordenadora de ECE</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Rebeca</span> Rodrigues</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Rebeca Rodrigues </span> </div>
         <div class="text-subtitle2"> Email:<span class="text-white"> rebecarodrigues300@gmail.com</span></div>
       </q-card-section>
     </q-card>
@@ -112,7 +112,7 @@
       <img src="statics/icons/bleiner.jpg" height="300px">
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Coordenador de Eventos</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Bleiner</span> Bertoluci Mathias</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Bleiner Bertoluci Mathias </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> bleiner.mathias@aluno.ifsp.edu.br</span> </div>
       </q-card-section>
     </q-card>
@@ -135,7 +135,7 @@
 
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Assessora de Comunicação</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Camila</span> Roque</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Camila Roque </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> camilarock11@hotmail.com</span></div>
       </q-card-section>
     </q-card>
@@ -144,7 +144,7 @@
       <img src="statics/icons/lorrayne.jpg" height="300px">
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Assessora de Eventos</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Lorrany</span> Santos</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Lorrany Santos </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> lorrany.santos@aluno.ifsp.edu.br </span> </div>
       </q-card-section>
     </q-card>
@@ -153,7 +153,7 @@
       <img src="statics/icons/giovani.jpg" height="300px">
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Assessor de Eventos</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Giovani</span> Cappelaro</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Giovani Cappelaro </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> giovani.cappelaro@hotmail.com</span> </div>
       </q-card-section>
     </q-card>
@@ -164,7 +164,7 @@
       <img src="statics/icons/yuri.jpg" height="300px">
       <q-card-section  class="text-orange bg-dark">
         <div class="text-h6">Assessor de ECE</div>
-        <div class="text-subtitle2"> Nome:<span class="text-white"> Yuri</span> Leonel</div>
+        <div class="text-subtitle2"> Nome:<span class="text-white"> Yuri Leonel </span></div>
         <div class="text-subtitle2"> Email:<span class="text-white"> y.leonel@aluno.ifsp.edu.br</span> </div>
       </q-card-section>
     </q-card>
@@ -176,7 +176,7 @@
 
       <q-card-section  class="text-orange bg-dark">
        <div class="text-h6">Assessor de ECE</div>
-       <div class="text-subtitle2"> Nome:<span class="text-white"> Roger</span> Peratello</div>
+       <div class="text-subtitle2"> Nome:<span class="text-white"> Roger Peratello </span> </div>
         <div class="text-subtitle2"> Email:</div>
       </q-card-section>
     </q-card>

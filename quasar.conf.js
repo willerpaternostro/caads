@@ -80,7 +80,7 @@ module.exports = function (ctx) {
 
     // animations: 'all', // --- includes all animations
     // https://quasar.dev/options/animations
-    animations: [],
+    animations: 'all',
 
     // https://quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {
@@ -94,7 +94,7 @@ module.exports = function (ctx) {
       manifest: {
         name: 'CAADS - IFSP',
         short_name: 'CAADS - IFSP',
-        description: 'Aplicativo desenvolvido pelo Centro Acadêmico de ADS do IFSP - São Carlos. ',
+        description: 'Aplicativo desenvolvido pelo aluno Willer Paternostro, presidente do Centro Acadêmico de ADS do IFSP - São Carlos na gestão de 2019-2020. ',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#000000',

@@ -4,7 +4,7 @@
       <q-toolbar>
         
         <q-btn
-          class="desktop-hide"
+          class="lt-md"
           flat
           dense
           round
@@ -22,7 +22,7 @@
             <img src="statics/icons/caads-transparente.png">
           </q-avatar> 
       </q-toolbar-title>
-       <q-toolbar-title class="row mobile-hide ">
+       <q-toolbar-title class="row gt-sm ">
          <q-btn class="col-1" flat style="color: grey;" label="Home"  icon="home" to="/" />
         <q-btn class="col-1" flat style="color: grey;" label="CAADS" :to="{ name: 'Caads' }" />
         <q-btn-dropdown
@@ -36,7 +36,7 @@
         
         <q-item clickable v-close-popup :to="{name:'Grade'}">
           <q-item-section>
-            <q-item-label><q-btn flat class="full-width" no-caps>Grade Curricular/ O Profissional </q-btn> </q-item-label>
+            <q-item-label><q-btn flat class="full-width" no-caps>O Curso</q-btn> </q-item-label>
           </q-item-section>
         </q-item>
         <q-item clickable v-close-popup >
@@ -72,27 +72,86 @@
       </q-list>
     </q-btn-dropdown>
        
-       
+          <q-btn-dropdown
+      push
+      flat
+     text-color="grey"
+    label="IFSP"
+     
+    >
+      <q-list>
+        
+        <q-item clickable v-close-popup >
+          <q-item-section>
+            <q-item-label><q-btn flat class="full-width" no-caps target="_blank" href="https://scl.ifsp.edu.br/" type="a">IFSP - São Carlos </q-btn> </q-item-label>
+          </q-item-section>
+        </q-item>
+         <q-item clickable v-close-popup  ref>
+          <q-item-section>
+            <q-item-label> <q-btn flat class="full-width" :to="{name:'Horarios'}" no-caps label="Horário ônibus" /></q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> 
+              <q-btn flat class="full-width" target="_blank" href="https://suap.ifsp.edu.br/accounts/login/?next=/" type="a" no-caps label="SUAP" /></q-item-label>
+          </q-item-section>
+        </q-item>
+          <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://moodle.scl.ifsp.edu.br/login/index.php" type="a" no-caps label="Moodle" /></q-item-label>
+          </q-item-section>
+        </q-item>
+
+      </q-list>
+    </q-btn-dropdown>
         <q-btn class="col-1" flat style="color: grey;" label="Produtos" to="/produtos" />
-         <q-btn class="col-1" flat style="color: grey;" label="Eventos" >
-        <q-tooltip>
-          Em Construção
-        </q-tooltip>
-        </q-btn>
+             <q-btn-dropdown
+      push
+      flat
+     text-color="grey"
+    label="Eventos"
+    disable=""
+     
+    >
+      <q-list>
+        
+        <q-item clickable v-close-popup >
+          <q-item-section>
+            <q-item-label><q-btn flat class="full-width" no-caps>WECOMP</q-btn> </q-item-label>
+          </q-item-section>
+        </q-item>
+         <q-item clickable v-close-popup  ref>
+          <q-item-section>
+            <q-item-label> <q-btn flat class="full-width"  no-caps label="GAMENIGHT" /></q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> 
+              <q-btn flat class="full-width"  no-caps label="Gincana Esportiva" /></q-item-label>
+          </q-item-section>
+        </q-item>
+          <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> <q-btn flat class="full-width"   no-caps label="Enigma" /></q-item-label>
+          </q-item-section>
+        </q-item>
+
+      </q-list>
+    </q-btn-dropdown>
         <q-btn class="col-1" flat style="color: grey;" label="Há Vagas!" >
           <q-tooltip>
           Em Construção
         </q-tooltip>
         </q-btn>
       
-        <q-btn class="col-1" flat style="color: grey;" label="Patrocínios" :to="{name:'Patrocinadores'}">
-           <q-tooltip>
-          Em Construção
-        </q-tooltip>
-        </q-btn>
-        
-        
-      
+        <q-btn class="col-1" flat style="color: grey;" label="Patrocínios" :to="{name:'Patrocinadores'}" />
+         
          <div class="col-4  ">
            <div class="row justify-end" >
           <q-btn flat target="_blank" href="https://www.facebook.com/caads.ifsp.sanca" type="a">
@@ -116,10 +175,8 @@
     </q-header>
 
    <q-drawer
-   
-        v-model="drawer"
-        :width="220"
-        :breakpoint="400"
+      class="lt-md"
+      v-model="drawer"
       >
         <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
          <q-list bordered class="rounded-borders">
@@ -145,16 +202,10 @@
         <q-list bordered>
          <q-item clickable v-ripple>
         <q-item-section >
-          <q-btn flat class="full-width" no-caps :to="{name:'Grade'}">O Profissional</q-btn> 
+          <q-btn flat class="full-width" no-caps :to="{name:'Grade'}">O Curso</q-btn> 
         </q-item-section>
         </q-item>
-        <q-item clickable v-ripple>
-
-
-        <q-item-section >
-          <q-btn flat class="full-width" no-caps :to="{name:'Grade'}">Grade Curricular </q-btn> 
-        </q-item-section>
-        </q-item>
+    
        
         <q-item clickable v-ripple  >
         <q-item-section >
@@ -291,7 +342,7 @@
            </q-list>
         </q-card>
       </q-expansion-item>
-         <q-item clickable v-ripple  class="text-black" @click="compartilhar"> 
+         <q-item clickable v-ripple  class="text-black desktop-hide" @click="compartilhar"> 
           <q-item-section avatar>
           <q-icon  name="share" />
         </q-item-section>
@@ -302,7 +353,7 @@
 
         <q-img class="absolute-top" src="statics/icons/caads-dark.png" style="height: 150px"/>
      
-      </q-drawer>
+  </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -337,7 +388,7 @@ export default {
       await Share.share({
   title: 'CAADS APP',
   text: 'Olá! Adicione o aplicativo do Centro Acadêmico de ADS do IFSP - São Carlos',
-  url: 'https://lucky-insurance.surge.sh',
+  url: 'https://caads-ifsp-saocarlos.com',
   dialogTitle: 'Compartilhe com seus amigos'
 });
     }

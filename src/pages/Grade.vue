@@ -1,6 +1,15 @@
 <template>
 <div class="q-pa-md">
-  
+  <div class="text-white text-h3">Avaliação último ENADE ( 2017 )</div> 
+  <br>
+     <q-rating
+        value="4"
+        size="3.5em"
+        color="yellow-5"
+        icon="star"
+      /> 
+      <br/>
+      <br/>
     <div class="row " >
        <q-list bordered class="rounded-borders">
       <q-expansion-item

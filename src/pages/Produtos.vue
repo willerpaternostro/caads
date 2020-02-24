@@ -1,7 +1,8 @@
 <template>
   <q-page class="flex flex-start text-orange">
    <div class="row">
-      <div class="text-h4 row"  :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">Produtos</div>
+      <div class="text-h4 row"  :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">
+        Produtos</div>
     </div><br>
 
   <div class="row items-start full-width"  :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">

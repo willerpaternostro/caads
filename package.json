@@ -1,7 +1,7 @@
 {
   "name": "caads",
   "version": "0.0.1",
-  "description": "Aplicativo desenvolvido pelo Centro Acadêmico de ADS do IFSP - São Carlos. ",
+  "description": "Aplicativo desenvolvido pelo aluno Willer Paternostro, presidente do Centro Acadêmico de ADS do IFSP - São Carlos na gestão de 2019-2020.",
   "productName": "CAADS - IFSP",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
@@ -13,6 +13,9 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "connect-history-api-fallback": "^1.5.0",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2",
     "@capacitor/cli": "^1.5.0",
     "@capacitor/core": "^1.5.0",
     "@quasar/extras": "^1.0.0",
