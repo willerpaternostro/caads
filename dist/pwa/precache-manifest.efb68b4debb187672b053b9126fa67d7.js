@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6a3f9368fa23614e2ea",
+    "revision": "e8def4c47f820f3d828b",
     "url": "/css/app.243672f0.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.0509ab09.woff2"
   },
   {
-    "revision": "07ca0b206382df8d56edeb70095b79c4",
+    "revision": "93762f424361bffb82946b67b64671b1",
     "url": "/index.html"
   },
   {
@@ -68,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/2.422ca73a.js"
   },
   {
-    "revision": "adac328412b2b1c98028",
-    "url": "/js/3.12f3ce8e.js"
+    "revision": "6a7e279cde9b615b0acc",
+    "url": "/js/3.59a99275.js"
   },
   {
-    "revision": "bab983cd92674c8f1081",
-    "url": "/js/4.657abb70.js"
+    "revision": "32b8f21521e874ec818f",
+    "url": "/js/4.f3890745.js"
   },
   {
-    "revision": "1d63252d668c8932e6d6",
-    "url": "/js/5.acd8bcbb.js"
+    "revision": "491d3c61b272364c6a71",
+    "url": "/js/5.d848e37f.js"
   },
   {
     "revision": "b88c8f865e2e0e458185",
@@ -88,16 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/7.83a429e1.js"
   },
   {
-    "revision": "2627dc473b2f86ec8ac6",
-    "url": "/js/8.2621d56c.js"
+    "revision": "7c33d41c9449451e19b2",
+    "url": "/js/8.6b482a9a.js"
   },
   {
-    "revision": "0b15bd5a2c6cd04009e4",
-    "url": "/js/9.757fa5bc.js"
+    "revision": "eb230b7d0029b1ea1674",
+    "url": "/js/9.7c557dfe.js"
   },
   {
-    "revision": "f6a3f9368fa23614e2ea",
-    "url": "/js/app.26b4de0f.js"
+    "revision": "e8def4c47f820f3d828b",
+    "url": "/js/app.e8e7629c.js"
   },
   {
     "revision": "ce5112987c4d6d8fd242",
@@ -110,6 +110,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "43aaa5717169a9cab1bde8de2d0c3701",
     "url": "/statics/app-logo-128x128.png"
+  },
+  {
+    "revision": "acbe8641eb2aa1239f201c611488a40d",
+    "url": "/statics/icons/06f8840b-4cc0-455a-980b-4585086d13df.jpg"
+  },
+  {
+    "revision": "008d8ff268da60ae702989f7af293bce",
+    "url": "/statics/icons/8d4ea16a-7d58-4995-b681-6ba49fd7aa8c.jpg"
   },
   {
     "revision": "7b288b92eeb654adf335c711e949f1d4",
@@ -138,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2daf0dc2e18ce0913fc6dca41e883c1e",
     "url": "/statics/icons/bleiner.jpg"
+  },
+  {
+    "revision": "a0898437b7c837ec72ff0864cf7ae7bc",
+    "url": "/statics/icons/c004f6db-539e-4ecd-bd7a-ce8aa585839c.jpg"
   },
   {
     "revision": "ef1eddf9bf69c95b887deac55951bc61",
@@ -252,8 +264,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/icons/ifsp-sanca.jpg"
   },
   {
+    "revision": "3fa1e3a20c1e74319bc505332e151bda",
+    "url": "/statics/icons/kit-basico.png"
+  },
+  {
     "revision": "7dcedc2aa1605da01b0e47a047c4f5c6",
     "url": "/statics/icons/kit-completo.jpg"
+  },
+  {
+    "revision": "bcd72ad828bb925d053469935fae1aa8",
+    "url": "/statics/icons/kit-completo.png"
   },
   {
     "revision": "1a99c38503d3a0e450a3cad8a0dbb62a",
