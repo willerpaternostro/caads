@@ -12,7 +12,7 @@
      <q-list>
         <q-expansion-item
        style="margin-left:50px"
-      class="text-white text-h6"
+      class="text-orange text-h6"
       label="Cordenadoria de Eventos"
       
     >
@@ -24,7 +24,7 @@
     </q-expansion-item>
        <q-expansion-item
        style="margin-left:50px"
-      class="text-white text-h6"
+      class="text-orange text-h6"
       label="Cordenadoria de Comunicação e Imprensa"
     >
       <q-card class="bg-dark text-white">
@@ -35,7 +35,7 @@
     </q-expansion-item>
       <q-expansion-item
       style="margin-left:50px"
-      class="text-white text-h6"
+      class="text-orange text-h6"
       label="Coordenadoria de Esportes, Cultura e Extensão"
     >
       <q-card class=" bg-dark text-white">

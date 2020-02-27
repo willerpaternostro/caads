@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-start ">
     
-        <div class="text-h4 row text-white justify-center " style="margin-left:50px;margin-top:50px">
+        <div class="text-h4 row text-orange justify-center " style="margin-left:50px;margin-top:50px">
             <span>Patrocinadores </span></div>
     
   <div :class="platform == 'windows' || platform == 'linux'?'row justify-center':'row justify-start'" :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">

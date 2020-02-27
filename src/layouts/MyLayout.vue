@@ -113,32 +113,32 @@
       flat
      text-color="grey"
     label="Eventos"
-    disable=""
+   
      
     >
       <q-list>
         
         <q-item clickable v-close-popup >
           <q-item-section>
-            <q-item-label><q-btn flat class="full-width" no-caps>WECOMP</q-btn> </q-item-label>
+            <q-item-label><q-btn disable flat class="full-width" no-caps>WECOMP</q-btn> </q-item-label>
           </q-item-section>
         </q-item>
          <q-item clickable v-close-popup  ref>
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width"  no-caps label="GAMENIGHT" /></q-item-label>
+            <q-item-label> <q-btn flat disable class="full-width"  no-caps label="GAMENIGHT" /></q-item-label>
           </q-item-section>
         </q-item>
         <q-item clickable v-close-popup >
             
           <q-item-section>
             <q-item-label> 
-              <q-btn flat class="full-width"  no-caps label="Gincana Esportiva" /></q-item-label>
+              <q-btn flat class="full-width" disable  no-caps label="Gincana Esportiva" /></q-item-label>
           </q-item-section>
         </q-item>
           <q-item clickable v-close-popup >
             
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width"   no-caps label="Enigma" /></q-item-label>
+            <q-item-label> <q-btn flat class="full-width" disable  no-caps label="Enigma" /></q-item-label>
           </q-item-section>
         </q-item>
 
@@ -283,14 +283,40 @@
         <q-item-section>Produtos</q-item-section>
         </q-item>
          <q-expansion-item
-        disable=""
+        
         expand-separator
         icon="fas fa-calendar-week"
         label="Eventos "
       >
         <q-card>
           <q-card-section>
-            Em construção
+              <q-list>
+        
+        <q-item clickable v-close-popup >
+          <q-item-section>
+            <q-item-label><q-btn disable flat class="full-width" no-caps>WECOMP</q-btn> </q-item-label>
+          </q-item-section>
+        </q-item>
+         <q-item clickable v-close-popup  ref>
+          <q-item-section>
+            <q-item-label> <q-btn flat disable class="full-width"  no-caps label="GAMENIGHT" /></q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> 
+              <q-btn flat class="full-width" disable  no-caps label="Gincana Esportiva" /></q-item-label>
+          </q-item-section>
+        </q-item>
+          <q-item clickable v-close-popup >
+            
+          <q-item-section>
+            <q-item-label> <q-btn flat class="full-width" disable  no-caps label="Enigma" /></q-item-label>
+          </q-item-section>
+        </q-item>
+
+      </q-list>
           </q-card-section>
         </q-card>
       </q-expansion-item>

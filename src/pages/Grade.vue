@@ -1,6 +1,6 @@
 <template>
 <div class="q-pa-md">
-  <div class="text-white text-h3">Avaliação último ENADE ( 2017 )</div> 
+  <div class="text-orange text-h4">Avaliação último ENADE</div> 
   <br>
      <q-rating
         value="4"
