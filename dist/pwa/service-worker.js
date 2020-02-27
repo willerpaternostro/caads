@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.efb68b4debb187672b053b9126fa67d7.js"
+  "/precache-manifest.0a1562ce1c2f1c033c5e1ecf698c39d1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "caads"});

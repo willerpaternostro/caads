@@ -168,11 +168,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/statics/icons/camila.jpg"
   },
   {
-    "revision": "2e73c1db48b0fcb2eb1870796059ce7d",
+    "revision": "6dec6bc35b182f9017b1e8a80c841c45",
     "url": "/statics/icons/camiseta-costas.jpg"
   },
   {
-    "revision": "feb66b57e8b61d66bf2b04c02e217d80",
+    "revision": "d669a5f75a5fafebc9879651d2ba9f80",
     "url": "/statics/icons/camiseta-frente.jpg"
   },
   {
