@@ -14,7 +14,7 @@
          
            <q-avatar icon="menu" /> 
           
-        </q-btn>
+          </q-btn>
         <q-toolbar-title class="desktop-hide" />
          <q-toolbar-title class="desktop-hide"  />
       <q-toolbar-title  class="desktop-hide" >
@@ -42,25 +42,25 @@
         <q-item clickable v-close-popup >
             
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/W9KfbmjhGLXvxJa" type="a" no-caps label="Horários de aulas" /></q-item-label>
+            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/W9KfbmjhGLXvxJa/download" type="a" no-caps label="Horários de aulas" /></q-item-label>
           </q-item-section>
         </q-item>
           <q-item clickable v-close-popup >
             
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OgytR7nzZ7EPOja" type="a" no-caps label="Projeto Pedagógico" /></q-item-label>
+            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OgytR7nzZ7EPOja/download" type="a" no-caps label="Projeto Pedagógico" /></q-item-label>
           </q-item-section>
         </q-item>
 
           <q-item clickable v-close-popup  ref>
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OyeAnex6RtmROky" type="a" no-caps label="Calendário" /></q-item-label>
+            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OyeAnex6RtmROky/download" type="a" no-caps label="Calendário" /></q-item-label>
           </q-item-section>
         </q-item>
 
          <q-item clickable v-close-popup  >
           <q-item-section>
-            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/6FlzIah5KafcTrR" type="a" no-caps label="Atividades complementares" /></q-item-label>
+            <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/6FlzIah5KafcTrR/download" type="a" no-caps label="Atividades complementares" /></q-item-label>
           </q-item-section>
         </q-item>
           <q-item clickable v-close-popup >
@@ -209,25 +209,25 @@
        
         <q-item clickable v-ripple  >
         <q-item-section >
-           <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/W9KfbmjhGLXvxJa" type="a" no-caps label="Horários de aulas" /></q-item-label>
+           <q-item-label> <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/W9KfbmjhGLXvxJa/download" type="a" no-caps label="Horários de aulas" /></q-item-label>
         </q-item-section>
         </q-item>
         <q-item clickable v-ripple  >
 
         <q-item-section >
-          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OgytR7nzZ7EPOja" type="a" no-caps label="Projeto Pedagógico" />
+          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OgytR7nzZ7EPOja/download" type="a" no-caps label="Projeto Pedagógico" />
         </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
 
         <q-item-section>
-          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OyeAnex6RtmROky" type="a" no-caps label="Calendário" />
+          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/OyeAnex6RtmROky/download" type="a" no-caps label="Calendário" />
         </q-item-section>
         </q-item>
         <q-item clickable v-ripple>
 
         <q-item-section>
-          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/6FlzIah5KafcTrR" type="a" no-caps label="Atividades complementares" />
+          <q-btn flat class="full-width" target="_blank" href="https://drive.ifsp.edu.br/s/6FlzIah5KafcTrR/download" type="a" no-caps label="Atividades complementares" />
         </q-item-section>
         </q-item>
          <q-item clickable v-ripple  >

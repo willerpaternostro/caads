@@ -143,6 +143,37 @@
     </q-card>
  
   </div>
+  <div class=" row items-start full-width" :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">
+       <q-card class="my-card col-sm-12 col-md" style="margin: 10px">
+      <img src="statics/icons/moletom.png" height="300px"> 
+      <q-card-section  class="text-orange bg-dark">
+        <div class="text-h6">Moletom</div>
+      </q-card-section>
+       <q-card-section class="text-orange bg-dark">
+       Preço:<span class="text-white"> Em breve </span>
+      </q-card-section>
+       <q-card-section class="text-orange bg-dark">
+       <q-btn color="orange-10" text-color="white" rounded no-caps type="a" target="_blank" href="#" class="text-white"> Em Breve </q-btn>
+      </q-card-section>
+    </q-card>
+
+    <q-card class="my-card col-sm-12 col-md " style="margin: 10px">
+      <img src="statics/icons/jaqueta.png" height="300px"> 
+
+      <q-card-section  class="text-orange bg-dark">
+        <div class="text-h6">Jaqueta</div>
+        
+      </q-card-section>
+       <q-card-section class="text-orange bg-dark">
+       Preço:<span class="text-white"> Em breve </span>
+      </q-card-section>
+       <q-card-section class="text-orange bg-dark">
+       <q-btn color="orange-10" text-color="white" rounded no-caps type="a" target="_blank" href="http://mpago.la/364QDs" class="text-white"> Em breve </q-btn>
+      </q-card-section>
+    </q-card>
+
+ 
+  </div>
    <div class="text-h4 "  :style="platform == 'windows' || platform == 'linux'?'margin-top: 50px; margin-left:50px':'margin-top: 50px;'">
         Kits <br /> 
    </div>
