@@ -6,6 +6,7 @@
         <div class="  text-white text-h6"> Vendas pelo whatsapp: <br>(16) 98108-2833 - Suzy</div>
         <div class="text-white text-h6">Os produtos serão vendidos via links do Mercado Pago. O comprovante junto com o pedido devem ser enviados pelo whatsapp.</div> 
         <div class="text-white text-h6">Parcelamento em até 12x pelo Mercado Pago</div>
+
         <br /><div class="text-h4 ">Itens Avulsos
        </div>
       </div>
